@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Produtos - Lista</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="bg-pink-50 text-gray-800 min-h-screen p-6">
+
+    <div class="max-w-5xl mx-auto">
+
+        <!-- Logo -->
+        <div class="text-center mb-6">
+            <img src="Img/logo natura e avon.webp" alt="Logo marca Natura e Avon" class="h-24 mx-auto rounded-lg shadow-md">
+            <h1 class="text-3xl font-bold text-pink-700 mt-4">Gerenciador de Produtos</h1>
+        </div>
+
+        <!-- Botão Cadastrar -->
+        <div class="flex justify-end mb-4">
+            <a href="cadastrar.html" class="bg-pink-600 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-lg shadow-lg">
+                Cadastrar Produto
+            </a>
+        </div>
+
+        <!-- Tabela de Produtos -->
+        <div class="overflow-x-auto">
+            <table class="w-full border border-gray-300 rounded-lg" id="listaProdutos">
+                <thead class="bg-pink-200 text-pink-900 font-bold">
+                    <tr>
+                        <th class="p-2 border-b">Nome</th>
+                        <th class="p-2 border-b">Preço</th>
+                        <th class="p-2 border-b">Categoria</th>
+                        <th class="p-2 border-b">Origem</th>
+                        <th class="p-2 border-b">Lote</th>
+                        <th class="p-2 border-b">Validade</th>
+                        <th class="p-2 border-b">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Preencher os produtos aqui -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

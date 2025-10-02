@@ -1,9 +1,29 @@
-/* Tailwind e ajustes extras */
+/*Style.css - customização geral */
 
+/* Inputs- aparência e resposividade*/
 .input {
-  @apply w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
 }
 
+/* Botões (além do Tailwind) */
 .btn {
-  @apply w-full py-2 rounded-lg text-white font-bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Sombra formulário e tabelas */
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+/* Responsividade -ajustes nas telas pequenas */
+@media (max-width: 640px) {
+    .input {
+        font-size: 0.9rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
 }
