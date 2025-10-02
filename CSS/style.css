@@ -1,0 +1,9 @@
+/* Tailwind e ajustes extras */
+
+.input {
+  @apply w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400;
+}
+
+.btn {
+  @apply w-full py-2 rounded-lg text-white font-bold;
+}
